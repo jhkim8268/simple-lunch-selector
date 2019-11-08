@@ -7,7 +7,7 @@ const expect = chai.expect;
 
 server.listen(4444);
 
-describe('server/app.js', function() {
+describe('server/index.js', function() {
   this.timeout(5000);
   beforeEach((done) => {
     
