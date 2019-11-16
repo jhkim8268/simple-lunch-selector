@@ -27,24 +27,4 @@ describe('server/index.js', function() {
         done();
       });
   });
-
-  it('page says hello world', (done) => {
-  chai.request(server)
-    .get('/')
-    .end((err, res) => {
-      expect(err).not.exist;
-      expect(JSON.stringify(res.text)).to.contain('Hello World');
-      done();
-    });  
-  });
-
-  it('page says Youre serving up the public folder, but do your tests pass?', (done) => {
-  chai.request(server)
-    .get('/')
-    .end((err, res) => {
-      expect(err).not.exist;
-      expect(JSON.stringify(res.text)).to.contain('Youre serving up the public folder, but do your tests pass?');
-      done();
-    });  
-  });
 })
