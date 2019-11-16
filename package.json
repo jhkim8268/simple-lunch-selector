@@ -1,5 +1,5 @@
 {
-  "name": "lunch-selector",
+  "name": "simple-lunch-selector",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
@@ -7,10 +7,6 @@
     "test": "mocha tests --exit",
     "start": "node server/index.js",
     "build": "webpack --mode development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jinkim-tech/simple-lunch-selector"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +21,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7",
+    "webpack-cli": "^3.3.7"
   },
   "devDependencies": {
     "css-loader": "^3.2.0",
