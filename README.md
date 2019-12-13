@@ -2,7 +2,21 @@
 
 This is a simple lunch selector using Pixabay API to choose your lunch so easy.
 
+## Motivation
 
+We spend tons of time to decide what to eat and drink. Here is the simplest solution for you!
+
+## Screenshot
+
+Install dependencies:
+
+## Tech used
+
+* ReactJS
+* Express
+* Heroku
+* CSS
+* CircleCI
 
 ## Getting Started
 
@@ -22,7 +36,4 @@ $ npm run start
 ```
 
 or visit
-
-https://lunch-selector.herokuapp.com/
-
-!!
+[Lunchify](https://lunch-selector.herokuapp.com)!!
