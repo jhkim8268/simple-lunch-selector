@@ -6,10 +6,6 @@ This is a simple lunch selector using Pixabay API to choose your lunch so easy.
 
 We spend tons of time to decide what to eat and drink. Here is the simplest solution for you!
 
-## Screenshot
-
-Install dependencies:
-
 ## Tech used
 
 * ReactJS
